@@ -1,38 +1,131 @@
 .App {
   text-align: center;
+  /* color: bisque; */
+  background-color: red;
+  margin:0;
+  font-family: Space Grotesk;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logincontainer{
+  display: flex;
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.loginitem-1{
+  background-color:#793EF5 ;
+  width: 50%;
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.loginitem-2{
+  background-color:#FFFFFF ;
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.logo span{
+  color: green;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logintitle{
+  color: #1E1E1E;
+  font-family:Space Grotesk;
+}
+
+.loginform input{
+   width:360px;
+   height: 45px;
+   border-radius:16px;
+   margin: 12px;
+  
+}
+.remme{
+  display: flex;
+  font-family: 'Space Grotesk';
+  align-items: center;
+}
+label{
+  /* font-family: Space Grotesk; */
+  margin-left:0;
+  color: #a079f6;
+}
+input .rememberme{
+  border: #793EF5;
+  width: 12px;
+  height: 12px;
+  
+}
+
+.remme h3{
+  color: #793EF5;
+}
+
+.loginbtn{
+  background-color: #793EF5;
+  color:#FFFFFF;
+  font-family: Space Grotesk;
+}
+
+.apprenticeshipcontainer{
+  background-color: #d1cae0;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.dashboardcontainer{
+  background-color:#FFFFFF; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 34px 20px;
+   gap: 34px;
+
+   /* position: absolute; */
+   width: 237px;
+   height: 700px;
+   margin-left: 16px;
+   margin-top: 16px;
+   margin-right:58px;
+
+   box-shadow: 0px 12px 34px rgba(0, 0, 0, 0.04);
+   border-radius: 24px;
+}
+
+.apprenticeshipcardcontainer{
+  background-color: #FFFFFF;
+  width: 365px;
+  height: 222px;
+  border: 1px solid #CFD3D9;
+  border-radius: 20px;
+}
+.apprenticeshipelements{
+  margin-top: 67px;
+}
+.Apprenticeshiptopbar{
+  /* background-color: green; */
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around ; 
+  width: 98vh;
+  
+}
+
+.Apprenticeshiptopbar button{
+  background-color: #793EF5;
+  color:#FFFFFF;
+  width:190px;
+  height: 40px;
+  text-align: center;
+  border-radius: 12px;
+  padding:12px, 16px, 12px, 16px;
+  margin-top: 15px;
+  margin-left: 50%;
+}
+
+.apprenticeshipformcontainer{
+  background-color:#d1cae0;
 }
