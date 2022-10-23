@@ -6,7 +6,8 @@ This is an internship managementt app that allows companies to evaluate and conn
 
 Languages used:
   1. Frontend
-    - React
+     - React
+    
   2. Backend
      - Rails
 
